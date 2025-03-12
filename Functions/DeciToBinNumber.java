@@ -1,7 +1,7 @@
 package Functions;
 
 public class DeciToBinNumber {
-    public static void DeciToBinNumber(int Num) {
+    public static void DeciToBinNumberConvert(int Num) {
         int myNum = Num ;
         int pow = 0;
         int binNum = 0;
@@ -15,6 +15,6 @@ public class DeciToBinNumber {
         System.out.println("binary of  " + myNum + " is " + binNum);    
     }
     public static void main(String[] args) {
-        DeciToBinNumber(7);
+        DeciToBinNumberConvert(7);
     }
 }
